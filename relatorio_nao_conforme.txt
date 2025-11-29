@@ -1,2 +1,5 @@
 RELATÓRIO DE NÃO CONFORMIDADE
 
+Circuito: Iluminação Corredor 3
+  Tipo: iluminacao | V=127.0 V | I=4.2 A | fp=0.93 | f=60.0 Hz
+
