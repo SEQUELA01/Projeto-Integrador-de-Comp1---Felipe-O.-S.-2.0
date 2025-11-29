@@ -12,11 +12,15 @@ Opções:
 
 Registrar medição
     altera valores dos circuitos
+
 Salvar circuitos 
     salva os valores atuais dos circuitos para circuitos.txt
+
 Gerar relatório de não conformidade
     salva relatorio de não conformidade para relatorio_nao_conforme.txt
+
 Resumo elétrico
     indica circuito com menor FP e o total de circuitos fora dos limites
+    
 Encontrar capacitancia para corrigir fator de potencia 
     indica a potencia em kvar para corrigir o FP do circuito selecionado
