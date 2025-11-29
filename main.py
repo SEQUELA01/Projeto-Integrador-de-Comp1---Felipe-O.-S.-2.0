@@ -8,6 +8,8 @@ from math import acos, tan, pi
 
 circuitos = [
     # nome, tipo, tensão, corrente, fator de potência, frequência, data da medicao
+    ["Iluminação Corredor 3", "iluminacao", 127.0, 4.2, 0.93, 60.0, "06/11/2025"],
+    ["Tomadas Laboratório 1", "tomada", 127.0, 12.5, 0.85, 60.0, "06/11/2025"],
     ["Circuito 1", "iluminacao", 220.0, 8.5, 0.95, 60.0, "05/11/2025"],
     ["Motor Bomba", "motor", 220.0, 14.0, 0.78, 60.0, "05/11/2025"],
     ["Alimentador Principal", "alimentador", 220.0, 25.0, 0.92, 60.0, "05/11/2025"],
@@ -163,4 +165,4 @@ while True:
     elif opc == "6":
         break
     else:
-        print("Opção inválida\n")
+        print("Opção inválida\n")''
