@@ -8,13 +8,13 @@ from math import acos, tan, pi
 
 circuitos = [
     # nome, tipo, tensão, corrente, fator de potência, frequência, data da medicao
-    ["Iluminação Corredor 3", "iluminacao", 127.0, 4.2, 0.93, 60.0, "06/11/2025"],
-    ["Tomadas Laboratório 1", "tomada", 127.0, 12.5, 0.85, 60.0, "06/11/2025"],
-    ["Circuito 1", "iluminacao", 220.0, 8.5, 0.95, 60.0, "05/11/2025"],
-    ["Motor Bomba", "motor", 220.0, 14.0, 0.78, 60.0, "05/11/2025"],
+    ["Iluminacao Corredor 3", "iluminacao" , 127.0, 4.2, 0.93, 60.0, "06/11/2025"],
+    ["Tomadas Laboratorio 1", "tomada"     , 127.0, 12.5, 0.85, 60.0, "06/11/2025"],
+    ["Circuito 1",            "iluminacao" , 220.0, 8.5, 0.95, 60.0, "05/11/2025"],
+    ["Motor Bomba",           "motor"      , 220.0, 14.0, 0.78, 60.0, "05/11/2025"],
     ["Alimentador Principal", "alimentador", 220.0, 25.0, 0.92, 60.0, "05/11/2025"],
-    ["Banco Tomadas Sala 2", "tomada", 127.0, 9.5, 0.88, 60.0, "03/11/2025"],
-    ["Exaustor Cozinha", "motor", 220.0, 6.8, 0.81, 60.0, "06/11/2025"]
+    ["Banco Tomadas Sala 2",  "tomada"     , 127.0, 9.5, 0.88, 60.0, "03/11/2025"],
+    ["Exaustor Cozinha",      "motor"      , 220.0, 6.8, 0.81, 60.0, "06/11/2025"]
 ]
 
 def resumo_eletrico():
@@ -50,7 +50,7 @@ def registrar_medicao(linha):
         if "=" in pedaco:
             k, v = pedaco.split("=")
             medidas[k.strip().lower()] = v.strip()
-
+    
     for c in circuitos:
         if c[0] == nome:
             if "v" in medidas:
